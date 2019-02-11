@@ -1,5 +1,4 @@
 #solution for Buying a car challenge
-#not finish
 
 nbMonths <- function(priceOld, priceNew, saving, loss) {
 newSaving <- saving
