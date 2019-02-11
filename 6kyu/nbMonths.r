@@ -17,6 +17,6 @@ return(c(0,priceOld-priceNew))
         priceNew <- priceNew - (priceNew*loss/100)
         newSaving <- newSaving + saving
     }
-return(c(month,floor(priceOld+newSaving-priceNew)))
+return(c(month,round(priceOld+newSaving-priceNew)))
 }
 }
